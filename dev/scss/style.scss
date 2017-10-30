@@ -1,0 +1,41 @@
+
+@import "../../node_modules/normalize.css";
+@import "helpers/variables";
+@import "base/grid";
+@import "helpers/mixins";
+@import "component/sprites";
+@import "component/buttons";
+@import "component/forms";
+
+
+body {
+  background-color: #fff;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/*type styles here*/
+
+@import "base/responsive";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+@mixin resetBtn() {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+@mixin valign() {
+  display: flex;
+  align-items: center;
+}
+
+@mixin placeholder($color) {
+  &::-webkit-input-placeholder {color:$color;}
+  &::-moz-placeholder          {color:$color;}
+  &:-moz-placeholder           {color:$color;}
+  &:-ms-input-placeholder      {color:$color;}
+}
+@mixin rightGap($gap) {
+  margin-right: $gap;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+@mixin leftGap($gap) {
+  margin-left: $gap;
+  &:first-child {
+    margin-left: 0;
+  }
+}
