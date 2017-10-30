@@ -6,7 +6,7 @@ Clone this into your repo
 3. npm i
 4. npm outdated
 
-    "devDependencies": {
+    `"devDependencies": {
         "browser-sync": "^2.18.12",
         "del": "^3.0.0",
         "gulp": "^3.9.1",
@@ -27,4 +27,4 @@ Clone this into your repo
     "dependencies": {
         "normalize.css": "^7.0.0",
         "svg4everybody": "^2.1.8"
-    }
+    }`
